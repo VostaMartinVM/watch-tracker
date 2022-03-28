@@ -1,0 +1,103 @@
+
+.loginCreateAccountPage{
+  box-sizing: border-box;
+  display: flex;
+  margin: 100px auto;
+  width: 1000px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+}
+
+
+.content-left {
+  flex: 1 1 50%;
+  order: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  border-radius: 10px 0 0 10px;
+}
+
+.content-right {
+  flex: 1 1 50%;
+  order: 1;
+  border-radius: 0 10px 10px 0;
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.input-div {
+  margin-bottom: 0.5rem;
+  width: 70%;
+}
+
+.inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+
+.loginCreateAccount-button {
+  width: 70%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: grey;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.loginCreateAccount-button:hover {
+  cursor: pointer;
+  background: pink;
+  transition: all 0.4s ease-out;
+}
+
+.input-loginCreateAccount {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+}
+
+.input-loginCreateAccount a {
+  text-decoration: none;
+  color: #27cdff;
+  font-weight: 600;
+}
